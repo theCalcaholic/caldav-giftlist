@@ -20,10 +20,3 @@ print(wishprint)
 output_handle = open("output/wishlist.html", "w")
 output_handle.write(wishprint)
 output_handle.close()
-
-
-# handle = open("templates/test.txt", "r")
-# template = Template(handle.read())
-# printable = template.render(name="TheCaptain")
-# print(printable)
-# handle.close()
