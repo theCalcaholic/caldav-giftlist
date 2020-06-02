@@ -3,6 +3,7 @@
     <link rel="stylesheet" type="text/css" href="../static/style.css">
 </head>
 <body>
+    <h1>Hochzeitswunschliste Jana und Simon</h1>
     <ol>
         {% for item in wishlist %}
         <li class="gift{% if item['completed'] == True %} completed{% endif %}">{{ item['name'] }}</li>

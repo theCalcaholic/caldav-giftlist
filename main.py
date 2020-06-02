@@ -1,12 +1,17 @@
 from jinja2 import Template
 from tasks import load_gift_list
+import sys
 
-username = "caldav-wishlist"
-password = "secret"
-# url = "https://cloud.knoeppler.org/remote.php/dav"
-cal_url = "https://cloud.knoeppler.org/remote.php/dav/calendars/caldav-wishlist/wedding/"
+
+_, username, password, cal_url = sys.argv
 
 outputliszt = load_gift_list(username, password, cal_url)
+
+
+#username = sys.argv[1] print(sys.argv)
+print(username)
+print(password)
+print(cal_url)
 
 
 
