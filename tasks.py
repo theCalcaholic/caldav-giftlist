@@ -1,6 +1,9 @@
 import caldav
 import vobject
 
+def sort_score(todo_item):
+    return (1 if todo_item['completed'] else 0), todo_item['name'].lower()
+
 def load_gift_list(username, password, cal_url):
 
     client = caldav.DAVClient(url=cal_url, username=username, password=password)
@@ -29,6 +32,6 @@ def load_gift_list(username, password, cal_url):
         
         
         
-    return outputliszt
+    return sorted(outputliszt, key=lambda t: sort_score(t))
 
 # ['COMPLETED', 'NEEDS-ACTION', 'CANCELLED', 'IN-PROCESS']

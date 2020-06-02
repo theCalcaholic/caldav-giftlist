@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>Hochzeitswunschliste Jana und Simon</h1>
-    <ol>
+    <ol class="giftlist">
         {% for item in wishlist %}
         <li class="gift{% if item['completed'] == True %} completed{% endif %}">{{ item['name'] | e | urlize(40, True) }}</li>
         {% endfor %}
