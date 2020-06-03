@@ -1,8 +1,79 @@
+div.header {
+    /* display: block;
+    max-width: 800px;
+    width: 90%; */
+    margin: auto;
+    display: flex;
+    max-width: 800px;
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+h1.header-title {
+    text-align: center;
+    color: #23292e;
+    margin: 0;
+}
+
+.header-icon {
+    background-image: url(rings_black.svg);
+    background-position: center;
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+    display: block;
+}
+
+ol.giftlist {
+    background-color: #23292e;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+
+    min-height: 60vh;
+    max-width: 800px;
+    width: 90%;
+    padding: 1em 3em 1em 3em;
+    box-sizing: border-box;
+
+    border-radius: 5px;
+    box-shadow: 
+        black 1px 1px 3px,
+        black -1px 1px 3px;
+}
+
+li.gift {
+    padding: 0.4em 0.4em;
+    /* background-color: #fff; */
+    /* display: block; */
+    width: 100%;
+    margin: 0.2em 0;
+    border-bottom-style: dotted;
+    border-width: 1px;
+    border-color: #dfb3ae;
+    /* border-radius: 5px; */
+    color: #fff;
+    font-weight: bold;
+}
+
+li.gift a {
+    color: #dfb3ae;
+    font-weight: lighter;
+}
+
 li.completed {
     text-decoration: line-through;
     color: #888;
+    display: inline;
 }
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ddded9;
 }

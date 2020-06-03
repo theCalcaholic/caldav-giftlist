@@ -5,7 +5,12 @@
     <link rel="stylesheet" type="text/css" href="../static/style.css">
 </head>
 <body>
-    <h1>Hochzeitswunschliste Jana und Simon</h1>
+    <div class="header">
+        <div class="header-icon" ></div>
+        <h1 class="header-title">
+            Hochzeitswunschliste Jana und Simon
+        </h1>
+    </div>
     <ol class="giftlist">
         {% for item in wishlist %}
         <li class="gift{% if item['completed'] == True %} completed{% endif %}">{{ item['name'] | e | urlize(40, True) }}</li>
