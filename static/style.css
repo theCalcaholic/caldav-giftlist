@@ -12,15 +12,15 @@ h1.header-title {
     text-align: center;
     color: #23292e;
     margin: 0;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .header-icon {
     background-image: url(rings_black.svg);
     background-position: center;
-    background-size: 64px 64px;
-    width: 66px;
-    height: 66px;
+    background-size: 98% 98%;
+    width: 130px;
+    height: 130px;
     box-sizing: content-box;
     display: block;
     flex-shrink: 0;
@@ -86,6 +86,15 @@ body {
 
     ol.giftlist {
         font-size: 1em;
+    }
+
+    h1.header-title {
+        font-size: 2em;
+    }
+
+    .header-icon {
+        width: 65px;
+        height: 65px;
     }
 
 }
