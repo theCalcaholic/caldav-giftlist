@@ -1,4 +1,8 @@
 :root {
+
+    /** DEFAULT **/
+    /* --rings-version: url(rings_black.svg); */
+
     /** MODERN CRYSTAL **/
     /* --primary-color-1: #23292e;
     --font-color-1: #fff;
@@ -7,11 +11,12 @@
     --secondary-color-1: #dfb3ae; */
 
     /** RUSTIC STEEL **/
-    /* --primary-color-1: #5e6572;
-    --font-color-1: #e5bda7;
+    --primary-color-1: #5e6572;
+    --font-color-1: #fff7ee;
     --font-color-2: #5e6572;
     --primary-color-2: #fff7ee;
-    --secondary-color-1: #fff7ee; */
+    --secondary-color-1: #fcb690;
+    --rings-version: url(rings_rustic_steel.svg);
 
     /** BOUNTY FRESH **/
     /* --primary-color-1: #d1d4af;
@@ -30,11 +35,11 @@
 
 
     /** MODERN CRYSTAL 2 **/
-    --primary-color-1: #e0c3c0;
+    /* --primary-color-1: #e0c3c0;
     --primary-color-2: #ddded9;
     --font-color-1: #23292e;
     --font-color-2: #23292e;
-    --secondary-color-1: #7e2923;
+    --secondary-color-1: #7e2923; */
 }
 
 div.header {
@@ -55,7 +60,7 @@ h1.header-title {
 }
 
 .header-icon {
-    background-image: url(rings_black.svg);
+    background-image: var(--rings-version);
     background-position: center;
     background-size: 98% 98%;
     width: 130px;
@@ -82,8 +87,8 @@ ol.giftlist {
 
     border-radius: 5px;
     box-shadow: 
-        black 1px 1px 3px,
-        black -1px 1px 3px;
+        var(--font-color-2) 1px 1px 3px,
+        var(--font-color-2) -1px 1px 3px;
     /* font-size: 2vh; */
     font-size: 2em;
 }
