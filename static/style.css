@@ -2,7 +2,7 @@ div.header {
     /* display: block;
     max-width: 800px;
     width: 90%; */
-    margin: auto;
+    margin: 4em auto;
     display: flex;
     max-width: 800px;
     width: 90%;
