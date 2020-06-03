@@ -82,7 +82,7 @@ body {
     background-color: #ddded9;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
     div.header, ol.giftlist {
         max-width: 800px;
     }
