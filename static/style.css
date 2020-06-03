@@ -70,7 +70,7 @@ li.gift a {
 li.completed {
     text-decoration: line-through;
     color: #888;
-    display: inline;
+    list-style: none;
 }
 
 body {
