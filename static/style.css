@@ -1,14 +1,14 @@
 :root {
 
     /** DEFAULT **/
-    /* --rings-version: url(rings_black.svg); */
+    --rings-version: url(rings_black.svg);
 
     /** MODERN CRYSTAL **/
     /* --primary-color-1: #23292e;
     --font-color-1: #fff;
     --font-color-2: #23292e;
     --primary-color-2: #ddded9;
-    --secondary-color-1: #dfb3ae; */
+    --secondary-color-1: #dfb3ae;*/
 
     /** RUSTIC STEEL **/
     --primary-color-1: #5e6572;
@@ -19,15 +19,16 @@
     --rings-version: url(rings_rustic_steel.svg);
 
     /** BOUNTY FRESH **/
-    /* --primary-color-1: #d1d4af;
+    /*--primary-color-1: #d1d4af;
     --font-color-1: #566e2d;
     --font-color-2: #566e2d;
     --primary-color-2: #fff;
-    --secondary-color-1: #f0720b; */
+    --secondary-color-1: #f0720b;*/
+    
 
 
     /** RED WINE **/
-    /* --primary-color-1: #e4a589;
+    /*--primary-color-1: #e4a589;
     --primary-color-2: #890025;
     --font-color-1: #fff;
     --font-color-2: #fff;

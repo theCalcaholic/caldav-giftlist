@@ -29,9 +29,6 @@ def load_gift_list(username, password, cal_url):
         }
         
         outputliszt.append(dictionary)
-        
-        
-        
-    return sorted(outputliszt, key=lambda t: sort_score(t))
+    return sorted(outputliszt, key=sort_score)
 
 # ['COMPLETED', 'NEEDS-ACTION', 'CANCELLED', 'IN-PROCESS']

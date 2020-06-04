@@ -7,13 +7,7 @@ _, username, password, cal_url = sys.argv
 
 outputliszt = load_gift_list(username, password, cal_url)
 
-
 #username = sys.argv[1] print(sys.argv)
-print(username)
-print(password)
-print(cal_url)
-
-
 
 # read template
 wish_haendel = open("templates/wishlist.html", "r")
